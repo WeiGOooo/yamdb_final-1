@@ -1,5 +1,6 @@
 import os
 from datetime import timedelta
+
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 SECRET_KEY = os.environ.get('SECRET_KEY', default='p&l%385148kslhtyn^##a1)ilz@4zqj=rq&agdol^##zgl9(vs')
@@ -7,7 +8,6 @@ SECRET_KEY = os.environ.get('SECRET_KEY', default='p&l%385148kslhtyn^##a1)ilz@4z
 DEBUG = False
 
 ALLOWED_HOSTS = ['localhost']
-
 
 INSTALLED_APPS = [
     'users',
@@ -55,7 +55,6 @@ TEMPLATES = [
 
 WSGI_APPLICATION = 'api_yamdb.wsgi.application'
 
-
 DATABASES = {
     'default': {
         'ENGINE': os.getenv('DB_ENGINE', default='django.db.backends.postgresql'),
@@ -66,7 +65,6 @@ DATABASES = {
         'PORT': os.getenv('DB_PORT')
     }
 }
-
 
 AUTH_PASSWORD_VALIDATORS = [
     {
@@ -83,7 +81,6 @@ AUTH_PASSWORD_VALIDATORS = [
     },
 ]
 
-
 LANGUAGE_CODE = 'en-us'
 
 TIME_ZONE = 'Europe/Moscow'
@@ -93,7 +90,6 @@ USE_I18N = True
 USE_L10N = True
 
 USE_TZ = True
-
 
 STATIC_URL = '/static/'
 STATIC_ROOT = os.path.join(BASE_DIR, 'static')

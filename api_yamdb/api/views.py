@@ -14,18 +14,11 @@ from users.models import User
 from .filters import CustomFilter
 from .mixins import CustomViewSet
 from .permissions import AdminPermissionOrReadOnly, IsAdmin, ReviewPermission
-from .serializers import (
-    CategorySerializer,
-    CommentSerializer,
-    ConfirmationSerializer,
-    EmailSerializer,
-    GenreSerializer,
-    ReviewSerializer,
-    TitleSerializerCreateUpdate,
-    TitleSerializer,
-    UserForAdminSerializer,
-    UserSerializer,
-)
+from .serializers import (CategorySerializer, CommentSerializer,
+                          ConfirmationSerializer, EmailSerializer,
+                          GenreSerializer, ReviewSerializer, TitleSerializer,
+                          TitleSerializerCreateUpdate, UserForAdminSerializer,
+                          UserSerializer)
 
 
 @api_view(['POST'])

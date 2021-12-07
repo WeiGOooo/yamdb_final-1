@@ -43,6 +43,7 @@ jobs:
         with:
           push: true
           no-cache: true
+          file: ./api_yamdb/Dockerfile
           tags: eugenesal/yamdb_final
   deploy:
     runs-on: ubuntu-latest

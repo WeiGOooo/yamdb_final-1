@@ -43,7 +43,6 @@ jobs:
         with:
           push: true
           no-cache: true
-#          file: ./api_yamdb/Dockerfile
           context: ./api_yamdb/
           tags: eugenesal/yamdb_final
   deploy:

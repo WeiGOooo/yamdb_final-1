@@ -7,7 +7,7 @@ SECRET_KEY = os.environ.get('SECRET_KEY', default='p&l%385148kslhtyn^##a1)ilz@4z
 
 DEBUG = False
 
-ALLOWED_HOSTS = ['localhost']
+ALLOWED_HOSTS = ['localhost', '51.250.2.40']
 
 INSTALLED_APPS = [
     'users',

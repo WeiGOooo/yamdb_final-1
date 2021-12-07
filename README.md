@@ -16,7 +16,7 @@
 ***
 ### Как запустить проект:
 ```
-https://github.com/EugeneSal/https:/github.com/EugeneSal/yamdb_final.git
+https://github.com/EugeneSal/yamdb_final.git
 ```
 ## Установка
 1. Установка docker и docker-compose
